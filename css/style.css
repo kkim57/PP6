@@ -3,7 +3,7 @@
 /*navigation*/
 
 #main-navbar {
-  background-color: blue;
+ 	background-color: blue;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
@@ -13,7 +13,7 @@
 	left: 50%;
 	float: left;
 	position: relative;
-  display: block;
+  	display: block;
 }
 
 #main-navbar ul {
@@ -21,9 +21,9 @@
 	padding: 0;
 	float: left;
 	right: 50%;
-  position: relative;
+  	position: relative;
 	display: block;
-  list-style-type: none;
+  	list-style-type: none;
 }
 
 #main-navbar ul li{
@@ -47,11 +47,11 @@
 /*sidebar*/
 
 #sidebar {
-  background-color: red;
+  	background-color: red;
 	height: 100%;
 	width: 20%;
 	right: 0%;
-  position: fixed;
+  	position: fixed;
 }
 
 #sidebar-container {
@@ -60,11 +60,11 @@
 
 #sidebar ul {
 	padding: 0;
-  list-style-type: none;
+  	list-style-type: none;
 }
 
 #sidebar ul li {
-  text-align: center;
+  	text-align: center;
 	padding: 15px 0;
 }
 
