@@ -1,1 +1,78 @@
+/*start your css here*/
 
+/*navigation*/
+
+#main-navbar {
+  background-color: blue;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#navbar-container {
+	left: 50%;
+	float: left;
+	position: relative;
+  display: block;
+}
+
+#main-navbar ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	right: 50%;
+  position: relative;
+	display: block;
+  list-style-type: none;
+}
+
+#main-navbar ul li{
+	float: left;
+	padding: 10px 20px;
+}
+
+#main-navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#main-navbar ul li a:hover{
+	background-color: #000;
+}
+
+#onpage {
+	text-decoration: underline overline;
+}
+
+/*sidebar*/
+
+#sidebar {
+  background-color: red;
+	height: 100%;
+	width: 20%;
+	right: 0%;
+  position: fixed;
+}
+
+#sidebar-container {
+	display: block;
+}
+
+#sidebar ul {
+	padding: 0;
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  text-align: center;
+	padding: 15px 0;
+}
+
+#sidebar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#sidebar ul li:hover{
+	background-color: #000;
+}
